@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    background-color: #0690d0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06d0a1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #cbcbcb; 
+}
+
+tr {
+    display: flex;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+table.marked tr {
+    color: #f4f4f4;
+    background: #262626;
+}
+
+th {
+        font-size: 19px;
+        color: #0690d0;
+}
+
+th, td{
+    border: none;
+    height: 30px;
+    padding: 10px;
+}
+
+tr:hover {
+    background: #DCDCDC;
+}
+
+table.marked tr:hover {
+    background: #333333;
+}
+
+.priority {
+    flex: 1;
+    text-align: center;
+}
+
+.task {
+    flex: 2;
+    text-align: center;
+}
+
+.delete{
+    flex: 1;
+    text-align: center;
+}
+
+.delete a#close{
+    position: relative;
+    top: -2px;
+    color: white;
+    background: #a52a2a;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.delete a#close:hover{
+    background: #06d0a1;
+}
+
+.delete a#status {
+    padding: 1px 6px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.delete a#status i{
+    font-size: 20px;
+}
+
+.delete a#status i:hover{
+    color: #06d0a1;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 2px;
+    background-color: black;
+}
